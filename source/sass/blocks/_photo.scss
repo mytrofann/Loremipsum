@@ -1,0 +1,23 @@
+.photo {
+  width: 360px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.photo__header {
+  margin: 0;
+  padding: 0;
+  padding-top: 37px;
+  position: relative;
+  background-color: #fc5095;
+}
+
+.photo__image {
+  width: 360px;
+  height: 226px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+  background-color: #fc5095;
+}

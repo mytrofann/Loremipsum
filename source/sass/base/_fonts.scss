@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-style: regular;
+  font-display: swap;
+  src: local("Open Sans Light"),
+  local("OpenSans-Light"),
+  url("../fonts/OpenSans-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: bold;
+  font-display: swap;
+  src: local("Open Sans SemiBold"),
+  local("OpenSans-SemiBold"),
+  url("../fonts/OpenSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+  src: local("Open Sans Bold"),
+  local("OpenSans-Bold"),
+  url("../fonts/OpenSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+  src: local("Open Sans ExtraBold"),
+  local("OpenSans-ExtraBold"),
+  url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+  src: local("Museo Sans Cyrl"),
+  local("MuseoSansCyrl"),
+  url("../fonts/MuseoSansCyrl.woff") format("woff");
+}

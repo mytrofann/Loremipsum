@@ -1,0 +1,26 @@
+body {
+  min-width: 360px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #3b3b3b;
+  font-style: normal;
+  text-transform: none;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sprite {
+  display: none;
+}

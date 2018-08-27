@@ -1,0 +1,40 @@
+.choice {
+  width: 360px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 10px;
+  position: relative;
+  background-color: #fc5095;
+  box-shadow: 0 -10px 50px 0 #fc5095;
+}
+
+.choice__circle-one {
+  top: -13px;
+  left: 39px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  background-color: #fc5095;
+  border-radius: 50px;
+  z-index: 6;
+}
+
+.choice__circle-two {
+  top: -9px;
+  left: 43px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50px;
+  z-index: 7;
+}
+
+.choice__heart {
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  width: 18px;
+  height: 18px;
+  fill: #fc5095;
+}

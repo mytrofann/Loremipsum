@@ -1,0 +1,36 @@
+.photo-item-second {
+  padding: 0;
+  position: absolute;
+  width: 360px;
+  height: 266px;
+  display: none;
+  background-color: #fcc050b6;
+}
+
+.photo-item-second__option {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.photo-item-second__percent {
+  margin: 0;
+  padding: 0 25px;
+  padding-top: 60px;
+  font-size: 103px;
+  display: block;
+}
+
+.photo-item-second__option-first {
+  display: none;
+}
+
+.photo-item-second__title {
+  margin: 0;
+  padding: 0 25px;
+  padding-top: 43px;
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

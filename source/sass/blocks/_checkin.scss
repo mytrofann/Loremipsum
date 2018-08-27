@@ -1,0 +1,175 @@
+.checkin {
+  margin: 0 auto;
+  padding: 0;
+  width: 360px;
+  display: none;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.checkin__description {
+  margin: 0;
+  padding: 0 20px;
+  padding-top: 23px;
+  padding-left: 45px;
+  padding-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1da7c0;
+  text-transform: uppercase;
+}
+
+.checkin__item {
+  border: 0;
+}
+
+.checkin__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  list-style: none;
+}
+
+.checkin__option {
+  margin: 0;
+  padding: 0;
+}
+
+.checkin__option-title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+}
+
+.checkin__option--variable {
+  margin-bottom: 5px;
+}
+
+.checkin__option--name label,
+.checkin__option--email label,
+.checkin__option--password label,
+.checkin__option--checkbox label {
+  margin: 0;
+  padding: 0;
+  padding-top: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+}
+
+.checkin__option--password label {
+  padding-top: 3px;
+}
+
+.checkin__input {
+  margin: 0;
+  padding: 17px 10px;
+  width: 246px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+}
+
+.checkin__custom-checkbox {
+  margin: 0;
+  padding: 14px 10px;
+  padding-left: 41px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  color: #ffffff;
+  background-color: #1da7c0;
+
+  & + svg {
+    fill: #ffffff;
+  }
+}
+
+.checkin__checkbox-one {
+  margin-right: 5px;
+}
+
+.checkin__item input[type="text"] {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 10px;
+}
+
+.checkin__item input[type="email"] {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 10px;
+}
+
+.checkin__item input[type="password"] {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 10px;
+}
+
+.checkin__input--checkbox {
+  width: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.checkin__option--checkbox label {
+  margin: 0;
+  margin-top: -15px;
+  padding: 0 20px;
+  font-family: "Museo Sans", "Arial", sans-serif;
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 10px;
+}
+
+.checkin__btn--submit {
+  margin: 0;
+  margin-left: 47px;
+  padding: 14px 21px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #1da7c0;
+  color: #ffffff;
+  border: 1px solid #1da7c0;
+  cursor: pointer;
+}
+
+.checkin__man {
+  position: absolute;
+  top: 113px;
+  left: 60px;
+  width: 25px;
+  height: 25px;
+  fill: #3b3b3b;
+}
+
+.checkin__woman {
+  position: absolute;
+  top: 113px;
+  left: 194px;
+  width: 25px;
+  height: 25px;
+  fill: #3b3b3b;
+}
+
+.checkin__btn--submit:disabled {
+  color: #aaa9a9;
+  background-color: #ffffff;
+  border-color: #1da7c0;
+  cursor: auto;
+}
