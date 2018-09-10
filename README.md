@@ -1,5 +1,4 @@
-# Loremipsum
-[dependency-image]][dependency-url]
+# Loremipsum [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * HTML-верстальщик: [Dmitriy Kravchuk](https://www.linkedin.com/in/mytrofann/).
 
